@@ -7,4 +7,9 @@ public class Item : ScriptableObject {
     public string name;
     public string description;
     public Sprite icon;
+
+    public void Use()
+    {
+        // use the item
+    }
 }
