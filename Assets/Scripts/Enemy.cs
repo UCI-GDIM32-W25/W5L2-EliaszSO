@@ -23,11 +23,11 @@ public class Enemy : MonoBehaviour
     private void Update ()
     {
         //periodically reset the timer and increment the line
-        if (timer > 2f)
+        if (timer > _stats.textDisplaySpeed)
         {
             // increase the line number and reset timer
             displayLineNumber++;
-            timer -= 2f;
+            timer -= _stats.textDisplaySpeed;
             
             // reset line number if its greater than the number of lines in the list
             if(displayLineNumber > _stats.dialogueLine.Count)

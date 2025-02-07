@@ -6,5 +6,6 @@ using UnityEngine;
 public class EnemyStats : ScriptableObject {
     public string name;
     public float health;
+    public float textDisplaySpeed = 2;
     public List<string> dialogueLine;
 }

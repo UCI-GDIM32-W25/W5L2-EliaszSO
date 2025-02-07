@@ -14,4 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Mask Guy
   health: 15
-  dialogueLine: bottom text
+  textDisplaySpeed: 3
+  dialogueLine:
+  - Bottom text
+  - read to the end to find out
+  - .
+  - '. . '
+  - . . .
+  - I lied
+  - . . . sorry :(

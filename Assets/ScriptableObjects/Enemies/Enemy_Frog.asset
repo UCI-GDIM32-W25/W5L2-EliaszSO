@@ -14,4 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Forg
   health: 10
-  dialogueLine: Ribbit...
+  textDisplaySpeed: 2
+  dialogueLine:
+  - Ribbit
+  - Ima frog
+  - you dont belive me??
+  - But i said ribbit . . .
